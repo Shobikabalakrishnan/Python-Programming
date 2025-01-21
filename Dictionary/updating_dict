@@ -1,0 +1,7 @@
+name = ['Apple', 'Orange', 'Pome']
+price = [100, 120, 180]
+fruits = dict(zip(name, price))
+fruits["Apple"] = {"small": 100, "large": 120}
+new = {"grapes": 50, "guava": 75, "bananas": 30}
+fruits.update(new)
+print (fruits)
