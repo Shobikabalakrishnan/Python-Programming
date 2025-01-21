@@ -1,0 +1,4 @@
+name = ['Apple','Orange','Pome']
+price = [100,120,180]
+Fruits = dict(zip(name,price))
+print (Fruits)
